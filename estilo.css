@@ -1,5 +1,11 @@
 :root {
-    --color0: #FF0000 --color1: #0000FF --color2: #00FF00 --color3: #FFFF00 --color4: #FFA500 --color5: #FF00FF --color6: #935116;
+    --color0: #FF0000;
+    --color1: #0000FF;
+    --color2: #00FF00;
+    --color3: #FFFF00;
+    --color4: #FFA500;
+    --color5: #FF00FF;
+    --color6: #935116;
 }
 
 .textsDiv {
