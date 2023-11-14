@@ -1,11 +1,5 @@
 :root {
-    --color0: goldenrod;
-    --color1: #922B21;
-    --color2: #633974;
-    --color3: #1A5276;
-    --color4: #117864;
-    --color5: #9A7D0A;
-    --color6: #935116;
+    --color0: #FF0000 --color1: #0000FF --color2: #00FF00 --color3: #FFFF00 --color4: #FFA500 --color5: #FF00FF --color6: #935116;
 }
 
 .textsDiv {
