@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./estilo.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="textsDiv">
+            <form onsubmit="procesarFormulario(); return false;"
+                method="post">
+                <textarea id="inputText" name="inputText" rows="4" cols="50"></textarea>
+                <br>
+                <label for="inputText">Ingresa tu texto:</label>
+                <input type="submit" value="Enviar">
+            </form>
+            <p id="texto">
+            </p>
+        </div>
+        <h1>Coloreador de parentesis con , super y subindices</h1>
+        <p>
+            Explicacion , Usar / para saltos de linea <br>
+            Para escribir potencias o subindices : <br>
+            k^{a} = k <span class="combined"><sup>a</sup></span> <br>
+            k^{a,b} = k <span class="combined"><sup>a</sup><sub>b</sub></span>
+        </p>
+        <script src="./script.js"></script>
+    </body>
+</html>

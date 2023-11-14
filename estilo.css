@@ -1,0 +1,66 @@
+:root {
+    --color0: goldenrod;
+    --color1: #922B21;
+    --color2: #633974;
+    --color3: #1A5276;
+    --color4: #117864;
+    --color5: #9A7D0A;
+    --color6: #935116;
+}
+
+.textsDiv {
+    display: flex;
+    font-size: x-large;
+    gap: 5px;
+}
+
+label {
+    height: min-content;
+}
+
+#inputText {
+    height: 50%;
+    overflow-y: auto;
+    background-color: #117864;
+    font-size: x-large;
+}
+
+#texto {
+    margin: 0px;
+    color: white;
+    background-color: grey;
+    border-radius: 20px;
+    padding: 10px;
+    flex: 1;
+
+}
+
+
+.combined {
+    font-size: 20px;
+    position: relative;
+}
+
+.combined sub,
+.combined sup {
+    font-size: 60%;
+}
+
+.combined sup+sub {
+    position: absolute;
+    left: 0;
+}
+
+.combined sub {
+    bottom: -0.5ex;
+    /* Ajusta la posición del subíndice según sea necesario */
+}
+
+.combined sup {
+    top: -0.05ex;
+    /* Ajusta la posición del superíndice según sea necesario */
+}
+
+.colored {
+    color: var(--color1);
+}
